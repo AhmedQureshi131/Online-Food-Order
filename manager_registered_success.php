@@ -75,7 +75,7 @@ $email = $conn->real_escape_string($_POST['email']);
 $contact = $conn->real_escape_string($_POST['contact']);
 $address = $conn->real_escape_string($_POST['address']);
 $password = $conn->real_escape_string($_POST['password']);
-
+//query
 $query = "INSERT into manager(fullname,username,email,contact,address,password) VALUES('" . $fullname . "','" . $username . "','" . $email . "','" . $contact . "','" . $address ."','" . $password ."')";
 $success = $conn->query($query);
 
