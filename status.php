@@ -92,6 +92,7 @@ else if (isset($_SESSION['login_user2'])) {
               echo "$count";
             }
               else
+              //echo 
                 echo "0";
               ?>)
               </a></li>
